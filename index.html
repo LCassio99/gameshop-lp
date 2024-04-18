@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paraguay Playstation</title>
+
+    <link rel="shortcut icon" type="imagex/png" href="./images/favicon.png">
+
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header" class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-2">Cássio Games</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="menu-navegacao" class="navbar-collapse collapse justify-content-end">
+                <ul class="nav nav-pills d-bock d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#about">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre Nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#news">
+                            <i class="bi bi-newspaper me-1"></i>
+                            Notícias
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#jogos">
+                            <i class="bi bi-controller me-1"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contact">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#header" data-bs-scroll="true">
+        <section id="about">
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slide1.jpg" alt="slide1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slide2.webp" alt="slide2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slide3.webp" alt="slide3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/frente-stand.jpeg" class="d-block w-100 rounded" alt="frente stand">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title pb-2">Sobre <span class="text-colored">Cássio Games</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quae ullam pariatur!
+                                Aliquid doloribus repudiandae, nostrum quia quasi, enim commodi aliquam necessitatibus
+                                laborum, quo saepe non sed exercitationem minus similique.
+                            </p>
+                            <h3 class="section-title pb-2">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas minima et sed
+                                accusamus, possimus ipsa tempore cupiditate doloremque dignissimos repellat ipsam! Quod
+                                totam omnis sapiente, a repellat non eaque quia?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Últimas <span class="text-colored">notícias</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/vinijr.webp" alt="vini" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-bank2"></i>
+                            Vini Jr. Embaixador PS5
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore fugiat quidem laborum
+                            debitis voluptates quis voluptatem optio, quos accusamus ipsum, esse reprehenderit dicta
+                            reiciendis officiis quia eum, assumenda odit recusandae.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/thelast-news.webp" alt="newslast" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-alarm"></i>
+                            Nova temporada The Last Of Us
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore fugiat quidem laborum
+                            debitis voluptates quis voluptatem optio, quos accusamus ipsum, esse reprehenderit dicta
+                            reiciendis officiis quia eum, assumenda odit recusandae.
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <img src="images/sony.webp" alt="sony" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-graph-down-arrow"></i>
+                            Queda no lucro da Sony
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore fugiat quidem laborum
+                            debitis voluptates quis voluptatem optio, quos accusamus ipsum, esse reprehenderit dicta
+                            reiciendis officiis quia eum, assumenda odit recusandae.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="jogos" class="pt-3">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-3">Nossos <span class="text-colored">jogos</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-jogos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#resident-evil"
+                                class="fw-bold text-start nav-link text-colored active">Resident Evil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#the-last"
+                                class="fw-bold text-start nav-link text-colored">The Last Of Us</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#spider-man"
+                                class="fw-bold text-start nav-link text-colored">Spider Man</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#god-of-war"
+                                class="fw-bold text-start nav-link text-colored">God of War</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#uncharted"
+                                class="fw-bold text-start nav-link text-colored">Uncharted</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div id="resident-evil" class="tab-pane active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/resident-2.png" alt="resident2">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil 2</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/resident-3.jpeg" alt="resident3">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil 3</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/Resident-4.png" alt="resident4">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil 4</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/resident-5.jpg" alt="resident5">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil 5</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/resident6.webp" alt="resident6">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil 6</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/resident-7.jpg" alt="resident7">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil Biohazard</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/resident-8.png" alt="resident8">
+                                        <h5 class="text-colored fw-bold mt-2">Resident Evil Village</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="the-last" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/the-last-1.png" alt="tlou1">
+                                        <h5 class="text-colored fw-bold mt-2">The Last Of Us 1</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/the-last-2.png" alt="tlou2">
+                                        <h5 class="text-colored fw-bold mt-2">The Last Of Us 2</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="spider-man" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/spider-1.png" alt="sm1">
+                                        <h5 class="text-colored fw-bold mt-2">Spider Man 1</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/spider-2.avif" alt="sm2">
+                                        <h5 class="text-colored fw-bold mt-2">Spider Man 2</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/spider-mm.png" alt="smmm">
+                                        <h5 class="text-colored fw-bold mt-2">Spider Man Miles Morales</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="god-of-war" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/gow-1.png" alt="gow1">
+                                        <h5 class="text-colored fw-bold mt-2">God Of War 1</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/gow-2.png" alt="gow2">
+                                        <h5 class="text-colored fw-bold mt-2">God Of War 2</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/gow-3.png" alt="gow3">
+                                        <h5 class="text-colored fw-bold mt-2">God Of War 3</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/gow-4.png" alt="gow4">
+                                        <h5 class="text-colored fw-bold mt-2">God Of War 2018</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/gow-rag.jpg" alt="gow rag">
+                                        <h5 class="text-colored fw-bold mt-2">God Of War Ragnarok</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="uncharted" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/uncharted-1.png" alt="uncharted-1">
+                                        <h5 class="text-colored fw-bold mt-2">Uncharted 1</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/Uncharted_2.png" alt="Uncharted_2">
+                                        <h5 class="text-colored fw-bold mt-2">Uncharted 2</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/Uncharted_3.jpg" alt="Uncharted_3">
+                                        <h5 class="text-colored fw-bold mt-2">Uncharted 3</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/Uncharted_4.png" alt="Uncharted_4">
+                                        <h5 class="text-colored fw-bold mt-2">Uncharted 4</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/uncharted-ll.png" alt="uncharted-ll">
+                                        <h5 class="text-colored fw-bold mt-2">Uncharted Lost Legacy</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="nome">Seu nome:</label>
+                                <input class="form-control" type="text" id="nome" name="nome">
+                            </div>
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="email">Seu e-mail:</label>
+                                <input class="form-control" type="email" id="email" name="email">
+                            </div>
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="telefone">Seu telefone (opcional):</label>
+                                <input class="form-control" type="tel" id="telefone" name="telefone">
+                            </div>
+                            <div class="mb-3 fw-bold text-colored">
+                                <label class="form-label" for="mensagem">Sua mensagem:</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua dos Bobos, 0, Esmero - Cidade Engraçada - JS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="footer">
+        <footer class="text-center fw-bold p-3">
+            &copy; Todos os direitos reservados | Code Tech - 2024
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
